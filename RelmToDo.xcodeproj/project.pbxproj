@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3141D28C24EFF2410062A933 /* Extension+UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3141D28B24EFF2410062A933 /* Extension+UITableViewCell.swift */; };
+		3179DD0124EBDB7800D367DF /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3179DD0024EBDB7800D367DF /* TasksViewController.swift */; };
+		3179DD0524EBDC6A00D367DF /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3179DD0424EBDC6A00D367DF /* TaskListViewController.swift */; };
 		31AE148224EBD3E400FE0240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE148124EBD3E400FE0240 /* AppDelegate.swift */; };
-		31AE148424EBD3E400FE0240 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE148324EBD3E400FE0240 /* SceneDelegate.swift */; };
-		31AE148624EBD3E400FE0240 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE148524EBD3E400FE0240 /* ViewController.swift */; };
 		31AE148924EBD3E400FE0240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AE148724EBD3E400FE0240 /* Main.storyboard */; };
 		31AE148B24EBD3E800FE0240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31AE148A24EBD3E800FE0240 /* Assets.xcassets */; };
 		31AE148E24EBD3E800FE0240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AE148C24EBD3E800FE0240 /* LaunchScreen.storyboard */; };
+		31B1DC1924EBFC4C0065850A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B1DC1824EBFC4C0065850A /* Task.swift */; };
+		31B1DC1B24EBFE000065850A /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B1DC1A24EBFE000065850A /* TaskList.swift */; };
+		31B1DC1D24EC4CBA0065850A /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B1DC1C24EC4CBA0065850A /* StorageManager.swift */; };
+		B72E5696B898ADE3888367A0 /* Pods_RelmToDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3440C919503DF6C85162D27C /* Pods_RelmToDo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		204821CB88EBD24ADB110166 /* Pods-RelmToDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelmToDo.debug.xcconfig"; path = "Target Support Files/Pods-RelmToDo/Pods-RelmToDo.debug.xcconfig"; sourceTree = "<group>"; };
+		3141D28B24EFF2410062A933 /* Extension+UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UITableViewCell.swift"; sourceTree = "<group>"; };
+		3179DD0024EBDB7800D367DF /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		3179DD0424EBDC6A00D367DF /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 		31AE147E24EBD3E400FE0240 /* RelmToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelmToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AE148124EBD3E400FE0240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31AE148324EBD3E400FE0240 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		31AE148524EBD3E400FE0240 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31AE148824EBD3E400FE0240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31AE148A24EBD3E800FE0240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31AE148D24EBD3E800FE0240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31AE148F24EBD3E800FE0240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B1DC1824EBFC4C0065850A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		31B1DC1A24EBFE000065850A /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		31B1DC1C24EC4CBA0065850A /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		3440C919503DF6C85162D27C /* Pods_RelmToDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RelmToDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1AA0788DDCC434EF48BAEA /* Pods-RelmToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelmToDo.release.xcconfig"; path = "Target Support Files/Pods-RelmToDo/Pods-RelmToDo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72E5696B898ADE3888367A0 /* Pods_RelmToDo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A5085137110425971DF4F71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3440C919503DF6C85162D27C /* Pods_RelmToDo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3179DD0224EBDB9600D367DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3179DD0424EBDC6A00D367DF /* TaskListViewController.swift */,
+				3179DD0024EBDB7800D367DF /* TasksViewController.swift */,
+				3141D28B24EFF2410062A933 /* Extension+UITableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3179DD0324EBDBA600D367DF /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				31AE148124EBD3E400FE0240 /* AppDelegate.swift */,
+				31AE148A24EBD3E800FE0240 /* Assets.xcassets */,
+				31AE148F24EBD3E800FE0240 /* Info.plist */,
+				31B1DC1C24EC4CBA0065850A /* StorageManager.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		3179DD0624EBDC7E00D367DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31B1DC1824EBFC4C0065850A /* Task.swift */,
+				31B1DC1A24EBFE000065850A /* TaskList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		31AE147524EBD3E400FE0240 = {
 			isa = PBXGroup;
 			children = (
 				31AE148024EBD3E400FE0240 /* RelmToDo */,
 				31AE147F24EBD3E400FE0240 /* Products */,
+				4DB9938167421A3AFAB81496 /* Pods */,
+				2A5085137110425971DF4F71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +109,30 @@
 		31AE148024EBD3E400FE0240 /* RelmToDo */ = {
 			isa = PBXGroup;
 			children = (
-				31AE148124EBD3E400FE0240 /* AppDelegate.swift */,
-				31AE148324EBD3E400FE0240 /* SceneDelegate.swift */,
-				31AE148524EBD3E400FE0240 /* ViewController.swift */,
-				31AE148724EBD3E400FE0240 /* Main.storyboard */,
-				31AE148A24EBD3E800FE0240 /* Assets.xcassets */,
-				31AE148C24EBD3E800FE0240 /* LaunchScreen.storyboard */,
-				31AE148F24EBD3E800FE0240 /* Info.plist */,
+				31B1DC1724EBFC200065850A /* Storyboards */,
+				3179DD0624EBDC7E00D367DF /* Model */,
+				3179DD0224EBDB9600D367DF /* Controllers */,
+				3179DD0324EBDBA600D367DF /* Support */,
 			);
 			path = RelmToDo;
+			sourceTree = "<group>";
+		};
+		31B1DC1724EBFC200065850A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				31AE148724EBD3E400FE0240 /* Main.storyboard */,
+				31AE148C24EBD3E800FE0240 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4DB9938167421A3AFAB81496 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				204821CB88EBD24ADB110166 /* Pods-RelmToDo.debug.xcconfig */,
+				FD1AA0788DDCC434EF48BAEA /* Pods-RelmToDo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31AE149224EBD3E800FE0240 /* Build configuration list for PBXNativeTarget "RelmToDo" */;
 			buildPhases = (
+				3C3AF7CBC6BE0E44CFC3CD50 /* [CP] Check Pods Manifest.lock */,
 				31AE147A24EBD3E400FE0240 /* Sources */,
 				31AE147B24EBD3E400FE0240 /* Frameworks */,
 				31AE147C24EBD3E400FE0240 /* Resources */,
+				496B8691C4F4908835E94EB8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +203,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C3AF7CBC6BE0E44CFC3CD50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RelmToDo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		496B8691C4F4908835E94EB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RelmToDo/Pods-RelmToDo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RelmToDo/Pods-RelmToDo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RelmToDo/Pods-RelmToDo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31AE147A24EBD3E400FE0240 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31AE148624EBD3E400FE0240 /* ViewController.swift in Sources */,
+				31B1DC1B24EBFE000065850A /* TaskList.swift in Sources */,
 				31AE148224EBD3E400FE0240 /* AppDelegate.swift in Sources */,
-				31AE148424EBD3E400FE0240 /* SceneDelegate.swift in Sources */,
+				3179DD0524EBDC6A00D367DF /* TaskListViewController.swift in Sources */,
+				3141D28C24EFF2410062A933 /* Extension+UITableViewCell.swift in Sources */,
+				31B1DC1D24EC4CBA0065850A /* StorageManager.swift in Sources */,
+				31B1DC1924EBFC4C0065850A /* Task.swift in Sources */,
+				3179DD0124EBDB7800D367DF /* TasksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +398,13 @@
 		};
 		31AE149324EBD3E800FE0240 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204821CB88EBD24ADB110166 /* Pods-RelmToDo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCYRDHFV67;
-				INFOPLIST_FILE = RelmToDo/Info.plist;
+				INFOPLIST_FILE = RelmToDo/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +418,13 @@
 		};
 		31AE149424EBD3E800FE0240 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD1AA0788DDCC434EF48BAEA /* Pods-RelmToDo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCYRDHFV67;
-				INFOPLIST_FILE = RelmToDo/Info.plist;
+				INFOPLIST_FILE = RelmToDo/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
